@@ -1,0 +1,1205 @@
+2020-04-21 22:33:28,668 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.0.Final
+2020-04-21 22:33:29,971 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2020-04-21 22:33:30,002 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2020-04-21 22:33:30,270 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 19.0.0.Final (WildFly Core 11.0.0.Final) starting
+2020-04-21 22:33:30,278 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_251\jre
+	java.io.tmpdir = C:\Users\POTERU~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Poterucha\Documents\Matheus\CaseItau\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Poterucha\AppData\Local\Microsoft\WindowsApps;C:\Users\Poterucha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Poterucha\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_251-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_251
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.251-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final
+	jboss.host.name = note-poterucha
+	jboss.modules.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = note-poterucha
+	jboss.qualified.host.name = note-poterucha
+	jboss.server.base.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\log
+	jboss.server.name = note-poterucha
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_251\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\jboss-modules.jar -mp C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\bin
+	user.home = C:\Users\Poterucha
+	user.language = pt
+	user.name = Poterucha
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2020-04-21 22:33:30,291 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\configuration/logging.properties 
+2020-04-21 22:33:32,939 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.11.2.Final
+2020-04-21 22:33:34,859 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-04-21 22:33:34,954 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-04-21 22:33:35,166 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2020-04-21 22:33:35,215 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.7.7.Final
+2020-04-21 22:33:35,271 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.7.7.Final
+2020-04-21 22:33:35,395 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0001: Activating Infinispan subsystem.
+2020-04-21 22:33:35,479 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) WFLYNAM0001: Activating Naming Subsystem
+2020-04-21 22:33:35,482 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 63) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
+2020-04-21 22:33:35,497 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2020-04-21 22:33:35,390 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 59) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2020-04-21 22:33:35,516 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 61) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2020-04-21 22:33:35,531 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 72) WFLYSEC0002: Activating Security Subsystem
+2020-04-21 22:33:35,564 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2020-04-21 22:33:35,560 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 65) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2020-04-21 22:33:35,547 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 62) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2020-04-21 22:33:35,598 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 54) WFLYRS0016: RESTEasy version 3.11.0.Final
+2020-04-21 22:33:35,619 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2020-04-21 22:33:35,629 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2020-04-21 22:33:35,646 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 53) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2020-04-21 22:33:35,707 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.0.30.Final starting
+2020-04-21 22:33:35,667 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.20.Final)
+2020-04-21 22:33:35,843 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2020-04-21 22:33:36,302 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2020-04-21 22:33:36,363 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2020-04-21 22:33:36,377 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2020-04-21 22:33:36,503 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2020-04-21 22:33:36,569 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql3
+2020-04-21 22:33:36,753 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2020-04-21 22:33:36,751 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.17.Final
+2020-04-21 22:33:37,094 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2020-04-21 22:33:37,098 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2020-04-21 22:33:37,210 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2020-04-21 22:33:37,216 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2020-04-21 22:33:37,732 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2020-04-21 22:33:37,790 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2020-04-21 22:33:37,891 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\deployments
+2020-04-21 22:33:38,126 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2020-04-21 22:33:38,289 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
+2020-04-21 22:33:38,469 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/lojajm-ds]
+2020-04-21 22:33:38,470 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2020-04-21 22:33:38,899 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2020-04-21 22:33:39,167 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.4.1.Final (Apache CXF 3.3.5) 
+2020-04-21 22:33:39,717 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2020-04-21 22:33:39,725 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2020-04-21 22:33:39,727 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2020-04-21 22:33:39,728 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 19.0.0.Final (WildFly Core 11.0.0.Final) started in 12169ms - Started 324 of 590 services (375 services are lazy, passive or on-demand)
+2020-04-21 22:39:05,050 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\40\9515a213d278a60e8874c89071861913b9ebc6\content
+2020-04-21 22:39:05,153 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "loja-1.0.0.war" (runtime-name: "loja-1.0.0.war")
+2020-04-21 22:39:08,076 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for lojaJMPU
+2020-04-21 22:39:08,738 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment loja-1.0.0.war
+2020-04-21 22:39:09,191 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 6.0.18.Final
+2020-04-21 22:39:09,445 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.18.Final
+2020-04-21 22:39:09,808 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoServices' in deployment unit 'deployment "loja-1.0.0.war"' are as follows:
+
+	java:global/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:module/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	ejb:/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:global/loja-1.0.0/ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices
+	java:module/ProdutoServices
+
+2020-04-21 22:39:10,173 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:39:10,295 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 2) HHH000204: Processing PersistenceUnitInfo [
+	name: lojaJMPU
+	...]
+2020-04-21 22:39:10,415 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2020-04-21 22:39:10,709 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 2) HHH000412: Hibernate Core {5.3.15.Final}
+2020-04-21 22:39:10,719 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 2) HHH000206: hibernate.properties not found
+2020-04-21 22:39:11,087 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0002: Started client-mappings cache from ejb container
+2020-04-21 22:39:11,543 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 2) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2020-04-21 22:39:11,667 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 3.1.3 (Final)
+2020-04-21 22:39:12,926 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:39:13,657 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 2) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-21 22:39:13,839 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 2) Envers integration enabled? : true
+2020-04-21 22:39:15,598 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2020-04-21 22:39:15,705 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-21 22:39:17,267 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 2) Inicializando Mojarra 2.3.9.SP06 para o contexto '/loja-jm'
+2020-04-21 22:39:19,134 ERROR [stderr] (ServerService Thread Pool -- 2) com.sun.faces.config.ConfigurationException: 
+2020-04-21 22:39:19,135 ERROR [stderr] (ServerService Thread Pool -- 2)   Source Document: vfs:/C:/Users/Poterucha/Documents/Matheus/CaseItau/wildfly-19.0.0.Final/bin/content/loja-1.0.0.war/WEB-INF/lib/primefaces-3.5.jar/META-INF/faces-config.xml
+2020-04-21 22:39:19,138 ERROR [stderr] (ServerService Thread Pool -- 2)   Cause: Class 'org.primefaces.component.fileupload.FileUploadRenderer' is missing a runtime dependency: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 22:39:19,141 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:255)
+2020-04-21 22:39:19,142 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:199)
+2020-04-21 22:39:19,143 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.addRenderers(RenderKitConfigProcessor.java:291)
+2020-04-21 22:39:19,143 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.process(RenderKitConfigProcessor.java:167)
+2020-04-21 22:39:19,144 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.ConfigManager.lambda$initialize$1(ConfigManager.java:324)
+2020-04-21 22:39:19,145 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+2020-04-21 22:39:19,147 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+2020-04-21 22:39:19,152 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+2020-04-21 22:39:19,154 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:307)
+2020-04-21 22:39:19,156 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:205)
+2020-04-21 22:39:19,158 ERROR [stderr] (ServerService Thread Pool -- 2) 	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+2020-04-21 22:39:19,160 ERROR [stderr] (ServerService Thread Pool -- 2) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:217)
+2020-04-21 22:39:19,161 ERROR [stderr] (ServerService Thread Pool -- 2) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+2020-04-21 22:39:19,165 ERROR [stderr] (ServerService Thread Pool -- 2) 	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+2020-04-21 22:39:19,166 ERROR [stderr] (ServerService Thread Pool -- 2) 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2020-04-21 22:39:19,168 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+2020-04-21 22:39:19,169 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:39:19,171 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:39:19,172 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:39:19,178 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:39:19,180 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:39:19,181 ERROR [stderr] (ServerService Thread Pool -- 2) 	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+2020-04-21 22:39:19,182 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+2020-04-21 22:39:19,184 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+2020-04-21 22:39:19,189 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020-04-21 22:39:19,195 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020-04-21 22:39:19,196 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+2020-04-21 22:39:19,197 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+2020-04-21 22:39:19,199 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+2020-04-21 22:39:19,200 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+2020-04-21 22:39:19,205 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 22:39:19,208 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+2020-04-21 22:39:19,210 ERROR [stderr] (ServerService Thread Pool -- 2) Caused by: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 22:39:19,215 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Class.getDeclaredMethods0(Native Method)
+2020-04-21 22:39:19,217 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+2020-04-21 22:39:19,220 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+2020-04-21 22:39:19,222 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.util.Util.classHasAnnotations(Util.java:1306)
+2020-04-21 22:39:19,226 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:55)
+2020-04-21 22:39:19,227 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:27)
+2020-04-21 22:39:19,230 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.util.MetadataWrapperMap.put(MetadataWrapperMap.java:79)
+2020-04-21 22:39:19,231 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.processor.AbstractConfigProcessor.loadClass(AbstractConfigProcessor.java:301)
+2020-04-21 22:39:19,232 ERROR [stderr] (ServerService Thread Pool -- 2) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:208)
+2020-04-21 22:39:19,233 ERROR [stderr] (ServerService Thread Pool -- 2) 	... 31 more
+2020-04-21 22:39:19,239 ERROR [stderr] (ServerService Thread Pool -- 2) Caused by: java.lang.ClassNotFoundException: org.apache.commons.fileupload.FileItem from [Module "deployment.loja-1.0.0.war" from Service Module Loader]
+2020-04-21 22:39:19,241 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:255)
+2020-04-21 22:39:19,242 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+2020-04-21 22:39:19,245 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+2020-04-21 22:39:19,247 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+2020-04-21 22:39:19,250 ERROR [stderr] (ServerService Thread Pool -- 2) 	... 40 more
+2020-04-21 22:39:20,262 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 2) Running on PrimeFaces 3.5
+2020-04-21 22:39:20,313 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 2) WFLYUT0021: Registered web context: '/loja-jm' for server 'default-server'
+2020-04-21 22:39:20,552 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "loja-1.0.0.war" (runtime-name : "loja-1.0.0.war")
+2020-04-21 22:39:30,413 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-04-21 22:39:37,203 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-1) Error Rendering View[/pedidoFechado.xhtml]: javax.el.PropertyNotFoundException: /pedidoFechado.xhtml @9,65 value="#{carrinhoDeComprasMB.idPedidoGerado}": The class 'br.com.amazoniarc.jee6.loja.web.CarrinhoDeComprasMB' does not have the property 'idPedidoGerado'.
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:75)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:170)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:157)
+	at javax.faces.component.UIParameter.getValue(UIParameter.java:113)
+	at com.sun.faces.renderkit.html_basic.OutputMessageRenderer.encodeEnd(OutputMessageRenderer.java:79)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:595)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1654)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:468)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:170)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:199)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:708)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.PropertyNotFoundException: The class 'br.com.amazoniarc.jee6.loja.web.CarrinhoDeComprasMB' does not have the property 'idPedidoGerado'.
+	at javax.el.BeanELResolver.getBeanProperty(BeanELResolver.java:473)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:174)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:156)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:184)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:114)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:177)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:183)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:73)
+	... 64 more
+
+2020-04-21 22:39:37,216 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /loja-jm/pedidoFechado.xhtml: javax.servlet.ServletException: /pedidoFechado.xhtml @9,65 value="#{carrinhoDeComprasMB.idPedidoGerado}": The class 'br.com.amazoniarc.jee6.loja.web.CarrinhoDeComprasMB' does not have the property 'idPedidoGerado'.
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:725)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.PropertyNotFoundException: /pedidoFechado.xhtml @9,65 value="#{carrinhoDeComprasMB.idPedidoGerado}": The class 'br.com.amazoniarc.jee6.loja.web.CarrinhoDeComprasMB' does not have the property 'idPedidoGerado'.
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:75)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:170)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:157)
+	at javax.faces.component.UIParameter.getValue(UIParameter.java:113)
+	at com.sun.faces.renderkit.html_basic.OutputMessageRenderer.encodeEnd(OutputMessageRenderer.java:79)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:595)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1654)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:468)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:170)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:199)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:708)
+	... 49 more
+Caused by: javax.el.PropertyNotFoundException: The class 'br.com.amazoniarc.jee6.loja.web.CarrinhoDeComprasMB' does not have the property 'idPedidoGerado'.
+	at javax.el.BeanELResolver.getBeanProperty(BeanELResolver.java:473)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:174)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:156)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:184)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:114)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:177)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:183)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:73)
+	... 64 more
+
+2020-04-21 22:42:38,935 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\15\75ed8868dc5d8034e2afdcdbd21c2a06fed6f7\content
+2020-04-21 22:42:39,000 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: '/loja-jm' from server 'default-server'
+2020-04-21 22:42:39,083 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:42:39,094 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 88) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@74707c69
+2020-04-21 22:42:39,103 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:42:39,639 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment loja-1.0.0.war (runtime-name: loja-1.0.0.war) in 694ms
+2020-04-21 22:42:39,646 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "loja-1.0.0.war" (runtime-name: "loja-1.0.0.war")
+2020-04-21 22:42:40,475 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for lojaJMPU
+2020-04-21 22:42:40,679 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment loja-1.0.0.war
+2020-04-21 22:42:40,693 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:42:40,694 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 88) HHH000204: Processing PersistenceUnitInfo [
+	name: lojaJMPU
+	...]
+2020-04-21 22:42:40,794 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoServices' in deployment unit 'deployment "loja-1.0.0.war"' are as follows:
+
+	java:global/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:module/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	ejb:/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:global/loja-1.0.0/ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices
+	java:module/ProdutoServices
+
+2020-04-21 22:42:40,954 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2020-04-21 22:42:41,377 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:42:41,385 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 88) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-21 22:42:41,417 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 88) Envers integration enabled? : true
+2020-04-21 22:42:41,689 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2020-04-21 22:42:41,708 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-21 22:42:42,447 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 87) Inicializando Mojarra 2.3.9.SP06 para o contexto '/loja-jm'
+2020-04-21 22:42:43,447 ERROR [stderr] (ServerService Thread Pool -- 87) com.sun.faces.config.ConfigurationException: 
+2020-04-21 22:42:43,453 ERROR [stderr] (ServerService Thread Pool -- 87)   Source Document: vfs:/C:/Users/Poterucha/Documents/Matheus/CaseItau/wildfly-19.0.0.Final/bin/content/loja-1.0.0.war/WEB-INF/lib/primefaces-3.5.jar/META-INF/faces-config.xml
+2020-04-21 22:42:43,454 ERROR [stderr] (ServerService Thread Pool -- 87)   Cause: Class 'org.primefaces.component.fileupload.FileUploadRenderer' is missing a runtime dependency: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 22:42:43,456 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:255)
+2020-04-21 22:42:43,459 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:199)
+2020-04-21 22:42:43,465 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.addRenderers(RenderKitConfigProcessor.java:291)
+2020-04-21 22:42:43,470 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.process(RenderKitConfigProcessor.java:167)
+2020-04-21 22:42:43,471 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.ConfigManager.lambda$initialize$1(ConfigManager.java:324)
+2020-04-21 22:42:43,477 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+2020-04-21 22:42:43,478 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+2020-04-21 22:42:43,480 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+2020-04-21 22:42:43,481 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:307)
+2020-04-21 22:42:43,482 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:205)
+2020-04-21 22:42:43,486 ERROR [stderr] (ServerService Thread Pool -- 87) 	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+2020-04-21 22:42:43,487 ERROR [stderr] (ServerService Thread Pool -- 87) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:217)
+2020-04-21 22:42:43,491 ERROR [stderr] (ServerService Thread Pool -- 87) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+2020-04-21 22:42:43,492 ERROR [stderr] (ServerService Thread Pool -- 87) 	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+2020-04-21 22:42:43,493 ERROR [stderr] (ServerService Thread Pool -- 87) 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2020-04-21 22:42:43,494 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+2020-04-21 22:42:43,498 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:42:43,500 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:42:43,501 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:42:43,502 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:42:43,503 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:42:43,505 ERROR [stderr] (ServerService Thread Pool -- 87) 	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+2020-04-21 22:42:43,507 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+2020-04-21 22:42:43,512 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+2020-04-21 22:42:43,514 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020-04-21 22:42:43,515 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020-04-21 22:42:43,516 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+2020-04-21 22:42:43,517 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+2020-04-21 22:42:43,518 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+2020-04-21 22:42:43,520 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+2020-04-21 22:42:43,524 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 22:42:43,525 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+2020-04-21 22:42:43,528 ERROR [stderr] (ServerService Thread Pool -- 87) Caused by: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 22:42:43,530 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.lang.Class.getDeclaredMethods0(Native Method)
+2020-04-21 22:42:43,535 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+2020-04-21 22:42:43,537 ERROR [stderr] (ServerService Thread Pool -- 87) 	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+2020-04-21 22:42:43,538 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.util.Util.classHasAnnotations(Util.java:1306)
+2020-04-21 22:42:43,541 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:55)
+2020-04-21 22:42:43,543 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:27)
+2020-04-21 22:42:43,548 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.util.MetadataWrapperMap.put(MetadataWrapperMap.java:79)
+2020-04-21 22:42:43,550 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.processor.AbstractConfigProcessor.loadClass(AbstractConfigProcessor.java:301)
+2020-04-21 22:42:43,553 ERROR [stderr] (ServerService Thread Pool -- 87) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:208)
+2020-04-21 22:42:43,555 ERROR [stderr] (ServerService Thread Pool -- 87) 	... 31 more
+2020-04-21 22:42:43,557 ERROR [stderr] (ServerService Thread Pool -- 87) Caused by: java.lang.ClassNotFoundException: org.apache.commons.fileupload.FileItem from [Module "deployment.loja-1.0.0.war" from Service Module Loader]
+2020-04-21 22:42:43,560 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:255)
+2020-04-21 22:42:43,562 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+2020-04-21 22:42:43,564 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+2020-04-21 22:42:43,565 ERROR [stderr] (ServerService Thread Pool -- 87) 	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+2020-04-21 22:42:43,566 ERROR [stderr] (ServerService Thread Pool -- 87) 	... 40 more
+2020-04-21 22:42:44,140 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 87) Running on PrimeFaces 3.5
+2020-04-21 22:42:44,154 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0021: Registered web context: '/loja-jm' for server 'default-server'
+2020-04-21 22:42:44,235 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "loja-1.0.0.war" with deployment "loja-1.0.0.war"
+2020-04-21 22:42:44,248 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\40\9515a213d278a60e8874c89071861913b9ebc6\content
+2020-04-21 22:43:27,612 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-04-21 22:47:41,464 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\76\1adcc191c31e1423377501e4f70b690692c3b4\content
+2020-04-21 22:47:41,496 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0022: Unregistered web context: '/loja-jm' from server 'default-server'
+2020-04-21 22:47:41,546 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:47:41,548 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 99) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@1321e892
+2020-04-21 22:47:41,553 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:47:42,080 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment loja-1.0.0.war (runtime-name: loja-1.0.0.war) in 611ms
+2020-04-21 22:47:42,085 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "loja-1.0.0.war" (runtime-name: "loja-1.0.0.war")
+2020-04-21 22:47:42,875 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for lojaJMPU
+2020-04-21 22:47:43,089 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment loja-1.0.0.war
+2020-04-21 22:47:43,107 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:47:43,116 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 99) HHH000204: Processing PersistenceUnitInfo [
+	name: lojaJMPU
+	...]
+2020-04-21 22:47:43,265 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoServices' in deployment unit 'deployment "loja-1.0.0.war"' are as follows:
+
+	java:global/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:module/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	ejb:/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:global/loja-1.0.0/ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices
+	java:module/ProdutoServices
+
+2020-04-21 22:47:43,436 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2020-04-21 22:47:43,949 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 22:47:43,953 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 99) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-21 22:47:43,975 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 99) Envers integration enabled? : true
+2020-04-21 22:47:44,311 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2020-04-21 22:47:44,329 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-21 22:47:45,042 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 97) Inicializando Mojarra 2.3.9.SP06 para o contexto '/loja-jm'
+2020-04-21 22:47:46,521 ERROR [stderr] (ServerService Thread Pool -- 97) com.sun.faces.config.ConfigurationException: 
+2020-04-21 22:47:46,544 ERROR [stderr] (ServerService Thread Pool -- 97)   Source Document: vfs:/C:/Users/Poterucha/Documents/Matheus/CaseItau/wildfly-19.0.0.Final/bin/content/loja-1.0.0.war/WEB-INF/lib/primefaces-3.5.jar/META-INF/faces-config.xml
+2020-04-21 22:47:46,550 ERROR [stderr] (ServerService Thread Pool -- 97)   Cause: Class 'org.primefaces.component.fileupload.FileUploadRenderer' is missing a runtime dependency: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 22:47:46,557 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:255)
+2020-04-21 22:47:46,566 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:199)
+2020-04-21 22:47:46,631 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.addRenderers(RenderKitConfigProcessor.java:291)
+2020-04-21 22:47:46,666 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.process(RenderKitConfigProcessor.java:167)
+2020-04-21 22:47:46,681 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.ConfigManager.lambda$initialize$1(ConfigManager.java:324)
+2020-04-21 22:47:46,696 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+2020-04-21 22:47:46,711 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+2020-04-21 22:47:46,729 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+2020-04-21 22:47:46,737 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:307)
+2020-04-21 22:47:46,742 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:205)
+2020-04-21 22:47:46,754 ERROR [stderr] (ServerService Thread Pool -- 97) 	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+2020-04-21 22:47:46,774 ERROR [stderr] (ServerService Thread Pool -- 97) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:217)
+2020-04-21 22:47:46,782 ERROR [stderr] (ServerService Thread Pool -- 97) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+2020-04-21 22:47:46,789 ERROR [stderr] (ServerService Thread Pool -- 97) 	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+2020-04-21 22:47:46,795 ERROR [stderr] (ServerService Thread Pool -- 97) 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2020-04-21 22:47:46,803 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+2020-04-21 22:47:46,808 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:47:46,814 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:47:46,822 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:47:46,829 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:47:46,834 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 22:47:46,845 ERROR [stderr] (ServerService Thread Pool -- 97) 	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+2020-04-21 22:47:46,849 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+2020-04-21 22:47:46,859 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+2020-04-21 22:47:46,866 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020-04-21 22:47:46,874 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020-04-21 22:47:46,890 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+2020-04-21 22:47:46,901 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+2020-04-21 22:47:46,907 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+2020-04-21 22:47:46,912 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+2020-04-21 22:47:46,916 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 22:47:46,919 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+2020-04-21 22:47:46,923 ERROR [stderr] (ServerService Thread Pool -- 97) Caused by: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 22:47:46,924 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.lang.Class.getDeclaredMethods0(Native Method)
+2020-04-21 22:47:46,928 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+2020-04-21 22:47:46,930 ERROR [stderr] (ServerService Thread Pool -- 97) 	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+2020-04-21 22:47:46,931 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.util.Util.classHasAnnotations(Util.java:1306)
+2020-04-21 22:47:46,936 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:55)
+2020-04-21 22:47:46,937 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:27)
+2020-04-21 22:47:46,938 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.util.MetadataWrapperMap.put(MetadataWrapperMap.java:79)
+2020-04-21 22:47:46,940 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.processor.AbstractConfigProcessor.loadClass(AbstractConfigProcessor.java:301)
+2020-04-21 22:47:46,941 ERROR [stderr] (ServerService Thread Pool -- 97) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:208)
+2020-04-21 22:47:46,943 ERROR [stderr] (ServerService Thread Pool -- 97) 	... 31 more
+2020-04-21 22:47:46,948 ERROR [stderr] (ServerService Thread Pool -- 97) Caused by: java.lang.ClassNotFoundException: org.apache.commons.fileupload.FileItem from [Module "deployment.loja-1.0.0.war" from Service Module Loader]
+2020-04-21 22:47:46,950 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:255)
+2020-04-21 22:47:46,954 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+2020-04-21 22:47:46,961 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+2020-04-21 22:47:46,986 ERROR [stderr] (ServerService Thread Pool -- 97) 	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+2020-04-21 22:47:46,993 ERROR [stderr] (ServerService Thread Pool -- 97) 	... 40 more
+2020-04-21 22:47:48,388 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 97) Running on PrimeFaces 3.5
+2020-04-21 22:47:48,405 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 97) WFLYUT0021: Registered web context: '/loja-jm' for server 'default-server'
+2020-04-21 22:47:48,518 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "loja-1.0.0.war" with deployment "loja-1.0.0.war"
+2020-04-21 22:47:48,531 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\15\75ed8868dc5d8034e2afdcdbd21c2a06fed6f7\content
+2020-04-21 22:47:51,818 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-04-21 23:38:48,148 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\98\04bdeeaa5b18cd446de826f4fdd70a7fa21abd\content
+2020-04-21 23:38:48,182 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 97) WFLYUT0022: Unregistered web context: '/loja-jm' from server 'default-server'
+2020-04-21 23:38:48,268 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:38:48,276 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 101) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5c8e9184
+2020-04-21 23:38:48,282 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:38:48,720 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment loja-1.0.0.war (runtime-name: loja-1.0.0.war) in 560ms
+2020-04-21 23:38:48,728 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "loja-1.0.0.war" (runtime-name: "loja-1.0.0.war")
+2020-04-21 23:38:49,795 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for lojaJMPU
+2020-04-21 23:38:50,108 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment loja-1.0.0.war
+2020-04-21 23:38:50,236 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:38:50,313 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 101) HHH000204: Processing PersistenceUnitInfo [
+	name: lojaJMPU
+	...]
+2020-04-21 23:38:50,417 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoServices' in deployment unit 'deployment "loja-1.0.0.war"' are as follows:
+
+	java:global/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:module/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	ejb:/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:global/loja-1.0.0/ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices
+	java:module/ProdutoServices
+
+2020-04-21 23:38:50,636 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2020-04-21 23:38:51,129 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:38:51,146 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 101) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-21 23:38:51,170 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 101) Envers integration enabled? : true
+2020-04-21 23:38:51,723 INFO  [io.smallrye.metrics] (MSC service thread 1-2) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2020-04-21 23:38:51,763 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-2) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-21 23:38:52,596 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 103) Inicializando Mojarra 2.3.9.SP06 para o contexto '/loja-jm'
+2020-04-21 23:38:53,756 ERROR [stderr] (ServerService Thread Pool -- 103) com.sun.faces.config.ConfigurationException: 
+2020-04-21 23:38:53,757 ERROR [stderr] (ServerService Thread Pool -- 103)   Source Document: vfs:/C:/Users/Poterucha/Documents/Matheus/CaseItau/wildfly-19.0.0.Final/bin/content/loja-1.0.0.war/WEB-INF/lib/primefaces-3.5.jar/META-INF/faces-config.xml
+2020-04-21 23:38:53,760 ERROR [stderr] (ServerService Thread Pool -- 103)   Cause: Class 'org.primefaces.component.fileupload.FileUploadRenderer' is missing a runtime dependency: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 23:38:53,763 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:255)
+2020-04-21 23:38:53,765 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:199)
+2020-04-21 23:38:53,766 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.addRenderers(RenderKitConfigProcessor.java:291)
+2020-04-21 23:38:53,767 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.process(RenderKitConfigProcessor.java:167)
+2020-04-21 23:38:53,768 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.ConfigManager.lambda$initialize$1(ConfigManager.java:324)
+2020-04-21 23:38:53,774 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+2020-04-21 23:38:53,776 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+2020-04-21 23:38:53,776 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+2020-04-21 23:38:53,777 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:307)
+2020-04-21 23:38:53,778 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:205)
+2020-04-21 23:38:53,779 ERROR [stderr] (ServerService Thread Pool -- 103) 	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+2020-04-21 23:38:53,781 ERROR [stderr] (ServerService Thread Pool -- 103) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:217)
+2020-04-21 23:38:53,785 ERROR [stderr] (ServerService Thread Pool -- 103) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+2020-04-21 23:38:53,787 ERROR [stderr] (ServerService Thread Pool -- 103) 	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+2020-04-21 23:38:53,805 ERROR [stderr] (ServerService Thread Pool -- 103) 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2020-04-21 23:38:53,816 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+2020-04-21 23:38:53,818 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:38:53,819 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:38:53,820 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:38:53,821 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:38:53,822 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:38:53,823 ERROR [stderr] (ServerService Thread Pool -- 103) 	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+2020-04-21 23:38:53,824 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+2020-04-21 23:38:53,832 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+2020-04-21 23:38:53,833 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020-04-21 23:38:53,835 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020-04-21 23:38:53,836 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+2020-04-21 23:38:53,837 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+2020-04-21 23:38:53,842 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+2020-04-21 23:38:53,842 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+2020-04-21 23:38:53,843 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 23:38:53,844 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+2020-04-21 23:38:53,846 ERROR [stderr] (ServerService Thread Pool -- 103) Caused by: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 23:38:53,847 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.lang.Class.getDeclaredMethods0(Native Method)
+2020-04-21 23:38:53,849 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+2020-04-21 23:38:53,852 ERROR [stderr] (ServerService Thread Pool -- 103) 	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+2020-04-21 23:38:53,853 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.util.Util.classHasAnnotations(Util.java:1306)
+2020-04-21 23:38:53,856 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:55)
+2020-04-21 23:38:53,857 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:27)
+2020-04-21 23:38:53,858 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.util.MetadataWrapperMap.put(MetadataWrapperMap.java:79)
+2020-04-21 23:38:53,859 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.processor.AbstractConfigProcessor.loadClass(AbstractConfigProcessor.java:301)
+2020-04-21 23:38:53,866 ERROR [stderr] (ServerService Thread Pool -- 103) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:208)
+2020-04-21 23:38:53,874 ERROR [stderr] (ServerService Thread Pool -- 103) 	... 31 more
+2020-04-21 23:38:53,890 ERROR [stderr] (ServerService Thread Pool -- 103) Caused by: java.lang.ClassNotFoundException: org.apache.commons.fileupload.FileItem from [Module "deployment.loja-1.0.0.war" from Service Module Loader]
+2020-04-21 23:38:53,893 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:255)
+2020-04-21 23:38:53,899 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+2020-04-21 23:38:53,900 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+2020-04-21 23:38:53,902 ERROR [stderr] (ServerService Thread Pool -- 103) 	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+2020-04-21 23:38:53,904 ERROR [stderr] (ServerService Thread Pool -- 103) 	... 40 more
+2020-04-21 23:38:55,169 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 103) Running on PrimeFaces 3.5
+2020-04-21 23:38:55,202 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0021: Registered web context: '/loja-jm' for server 'default-server'
+2020-04-21 23:38:55,388 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0016: Replaced deployment "loja-1.0.0.war" with deployment "loja-1.0.0.war"
+2020-04-21 23:38:55,431 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\76\1adcc191c31e1423377501e4f70b690692c3b4\content
+2020-04-21 23:39:06,071 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-1) Error Rendering View[/carrinho.xhtml]: javax.faces.FacesException: Cannot find component with identifier "formCarrinhoDeCompras" referenced from "formCarrinhoDeCompras:j_idt27:j_idt30".
+	at org.primefaces.util.ComponentUtils.findClientIds(ComponentUtils.java:250)
+	at org.primefaces.util.AjaxRequestBuilder.addIds(AjaxRequestBuilder.java:102)
+	at org.primefaces.util.AjaxRequestBuilder.process(AjaxRequestBuilder.java:84)
+	at org.primefaces.renderkit.CoreRenderer.buildAjaxRequest(CoreRenderer.java:200)
+	at org.primefaces.component.commandbutton.CommandButtonRenderer.encodeMarkup(CommandButtonRenderer.java:75)
+	at org.primefaces.component.commandbutton.CommandButtonRenderer.encodeEnd(CommandButtonRenderer.java:50)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:595)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1654)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:468)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:170)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:199)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:708)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-21 23:39:06,080 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /loja-jm/carrinho.xhtml: javax.servlet.ServletException: Cannot find component with identifier "formCarrinhoDeCompras" referenced from "formCarrinhoDeCompras:j_idt27:j_idt30".
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:725)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.FacesException: Cannot find component with identifier "formCarrinhoDeCompras" referenced from "formCarrinhoDeCompras:j_idt27:j_idt30".
+	at org.primefaces.util.ComponentUtils.findClientIds(ComponentUtils.java:250)
+	at org.primefaces.util.AjaxRequestBuilder.addIds(AjaxRequestBuilder.java:102)
+	at org.primefaces.util.AjaxRequestBuilder.process(AjaxRequestBuilder.java:84)
+	at org.primefaces.renderkit.CoreRenderer.buildAjaxRequest(CoreRenderer.java:200)
+	at org.primefaces.component.commandbutton.CommandButtonRenderer.encodeMarkup(CommandButtonRenderer.java:75)
+	at org.primefaces.component.commandbutton.CommandButtonRenderer.encodeEnd(CommandButtonRenderer.java:50)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:595)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1654)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:468)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:170)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:199)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:708)
+	... 49 more
+
+2020-04-21 23:39:13,634 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-04-21 23:39:18,029 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-1) Error Rendering View[/carrinho.xhtml]: javax.faces.FacesException: Cannot find component with identifier "formCarrinhoDeCompras" referenced from "formCarrinhoDeCompras:j_idt27:j_idt30".
+	at org.primefaces.util.ComponentUtils.findClientIds(ComponentUtils.java:250)
+	at org.primefaces.util.AjaxRequestBuilder.addIds(AjaxRequestBuilder.java:102)
+	at org.primefaces.util.AjaxRequestBuilder.process(AjaxRequestBuilder.java:84)
+	at org.primefaces.renderkit.CoreRenderer.buildAjaxRequest(CoreRenderer.java:200)
+	at org.primefaces.component.commandbutton.CommandButtonRenderer.encodeMarkup(CommandButtonRenderer.java:75)
+	at org.primefaces.component.commandbutton.CommandButtonRenderer.encodeEnd(CommandButtonRenderer.java:50)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:595)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1654)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:468)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:170)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:199)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:708)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-21 23:39:18,044 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /loja-jm/carrinho.xhtml: javax.servlet.ServletException: Cannot find component with identifier "formCarrinhoDeCompras" referenced from "formCarrinhoDeCompras:j_idt27:j_idt30".
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:725)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.FacesException: Cannot find component with identifier "formCarrinhoDeCompras" referenced from "formCarrinhoDeCompras:j_idt27:j_idt30".
+	at org.primefaces.util.ComponentUtils.findClientIds(ComponentUtils.java:250)
+	at org.primefaces.util.AjaxRequestBuilder.addIds(AjaxRequestBuilder.java:102)
+	at org.primefaces.util.AjaxRequestBuilder.process(AjaxRequestBuilder.java:84)
+	at org.primefaces.renderkit.CoreRenderer.buildAjaxRequest(CoreRenderer.java:200)
+	at org.primefaces.component.commandbutton.CommandButtonRenderer.encodeMarkup(CommandButtonRenderer.java:75)
+	at org.primefaces.component.commandbutton.CommandButtonRenderer.encodeEnd(CommandButtonRenderer.java:50)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:595)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1654)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:468)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:170)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:199)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:708)
+	... 49 more
+
+2020-04-21 23:42:07,311 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\13\70e3a69c0cc7974ff140d8361d0a50e28a28ef\content
+2020-04-21 23:42:07,338 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0022: Unregistered web context: '/loja-jm' from server 'default-server'
+2020-04-21 23:42:07,374 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:42:07,376 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 111) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6900ad69
+2020-04-21 23:42:07,381 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:42:07,785 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment loja-1.0.0.war (runtime-name: loja-1.0.0.war) in 470ms
+2020-04-21 23:42:07,789 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "loja-1.0.0.war" (runtime-name: "loja-1.0.0.war")
+2020-04-21 23:42:08,472 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for lojaJMPU
+2020-04-21 23:42:08,654 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment loja-1.0.0.war
+2020-04-21 23:42:08,672 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:42:08,673 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 111) HHH000204: Processing PersistenceUnitInfo [
+	name: lojaJMPU
+	...]
+2020-04-21 23:42:08,792 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoServices' in deployment unit 'deployment "loja-1.0.0.war"' are as follows:
+
+	java:global/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:module/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	ejb:/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:global/loja-1.0.0/ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices
+	java:module/ProdutoServices
+
+2020-04-21 23:42:08,917 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2020-04-21 23:42:09,434 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:42:09,440 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 111) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-21 23:42:09,458 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 111) Envers integration enabled? : true
+2020-04-21 23:42:09,793 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2020-04-21 23:42:09,830 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-21 23:42:10,319 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 110) Inicializando Mojarra 2.3.9.SP06 para o contexto '/loja-jm'
+2020-04-21 23:42:11,028 ERROR [stderr] (ServerService Thread Pool -- 110) com.sun.faces.config.ConfigurationException: 
+2020-04-21 23:42:11,028 ERROR [stderr] (ServerService Thread Pool -- 110)   Source Document: vfs:/C:/Users/Poterucha/Documents/Matheus/CaseItau/wildfly-19.0.0.Final/bin/content/loja-1.0.0.war/WEB-INF/lib/primefaces-3.5.jar/META-INF/faces-config.xml
+2020-04-21 23:42:11,031 ERROR [stderr] (ServerService Thread Pool -- 110)   Cause: Class 'org.primefaces.component.fileupload.FileUploadRenderer' is missing a runtime dependency: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 23:42:11,034 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:255)
+2020-04-21 23:42:11,035 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:199)
+2020-04-21 23:42:11,037 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.addRenderers(RenderKitConfigProcessor.java:291)
+2020-04-21 23:42:11,038 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.process(RenderKitConfigProcessor.java:167)
+2020-04-21 23:42:11,039 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.ConfigManager.lambda$initialize$1(ConfigManager.java:324)
+2020-04-21 23:42:11,049 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+2020-04-21 23:42:11,061 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+2020-04-21 23:42:11,068 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+2020-04-21 23:42:11,069 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:307)
+2020-04-21 23:42:11,072 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:205)
+2020-04-21 23:42:11,073 ERROR [stderr] (ServerService Thread Pool -- 110) 	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+2020-04-21 23:42:11,074 ERROR [stderr] (ServerService Thread Pool -- 110) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:217)
+2020-04-21 23:42:11,075 ERROR [stderr] (ServerService Thread Pool -- 110) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+2020-04-21 23:42:11,076 ERROR [stderr] (ServerService Thread Pool -- 110) 	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+2020-04-21 23:42:11,081 ERROR [stderr] (ServerService Thread Pool -- 110) 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2020-04-21 23:42:11,082 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+2020-04-21 23:42:11,083 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:42:11,084 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:42:11,085 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:42:11,086 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:42:11,087 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:42:11,089 ERROR [stderr] (ServerService Thread Pool -- 110) 	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+2020-04-21 23:42:11,094 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+2020-04-21 23:42:11,097 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+2020-04-21 23:42:11,099 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020-04-21 23:42:11,101 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020-04-21 23:42:11,101 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+2020-04-21 23:42:11,106 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+2020-04-21 23:42:11,107 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+2020-04-21 23:42:11,112 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+2020-04-21 23:42:11,118 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 23:42:11,122 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+2020-04-21 23:42:11,125 ERROR [stderr] (ServerService Thread Pool -- 110) Caused by: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 23:42:11,126 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.lang.Class.getDeclaredMethods0(Native Method)
+2020-04-21 23:42:11,127 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+2020-04-21 23:42:11,128 ERROR [stderr] (ServerService Thread Pool -- 110) 	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+2020-04-21 23:42:11,128 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.util.Util.classHasAnnotations(Util.java:1306)
+2020-04-21 23:42:11,129 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:55)
+2020-04-21 23:42:11,130 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:27)
+2020-04-21 23:42:11,134 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.util.MetadataWrapperMap.put(MetadataWrapperMap.java:79)
+2020-04-21 23:42:11,135 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.processor.AbstractConfigProcessor.loadClass(AbstractConfigProcessor.java:301)
+2020-04-21 23:42:11,138 ERROR [stderr] (ServerService Thread Pool -- 110) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:208)
+2020-04-21 23:42:11,139 ERROR [stderr] (ServerService Thread Pool -- 110) 	... 31 more
+2020-04-21 23:42:11,140 ERROR [stderr] (ServerService Thread Pool -- 110) Caused by: java.lang.ClassNotFoundException: org.apache.commons.fileupload.FileItem from [Module "deployment.loja-1.0.0.war" from Service Module Loader]
+2020-04-21 23:42:11,141 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:255)
+2020-04-21 23:42:11,142 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+2020-04-21 23:42:11,142 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+2020-04-21 23:42:11,143 ERROR [stderr] (ServerService Thread Pool -- 110) 	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+2020-04-21 23:42:11,150 ERROR [stderr] (ServerService Thread Pool -- 110) 	... 40 more
+2020-04-21 23:42:11,932 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 110) Running on PrimeFaces 3.5
+2020-04-21 23:42:11,947 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 110) WFLYUT0021: Registered web context: '/loja-jm' for server 'default-server'
+2020-04-21 23:42:12,029 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0016: Replaced deployment "loja-1.0.0.war" with deployment "loja-1.0.0.war"
+2020-04-21 23:42:12,036 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\98\04bdeeaa5b18cd446de826f4fdd70a7fa21abd\content
+2020-04-21 23:42:18,576 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2020-04-21 23:43:35,102 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\f6\af1670c59d635266479e9a29129cbc7ec89b7d\content
+2020-04-21 23:43:35,111 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 115) WFLYUT0022: Unregistered web context: '/loja-jm' from server 'default-server'
+2020-04-21 23:43:35,152 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:43:35,157 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 110) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@7247dd36
+2020-04-21 23:43:35,160 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:43:35,473 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment loja-1.0.0.war (runtime-name: loja-1.0.0.war) in 367ms
+2020-04-21 23:43:35,477 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "loja-1.0.0.war" (runtime-name: "loja-1.0.0.war")
+2020-04-21 23:43:36,065 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for lojaJMPU
+2020-04-21 23:43:36,219 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment loja-1.0.0.war
+2020-04-21 23:43:36,250 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:43:36,251 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 110) HHH000204: Processing PersistenceUnitInfo [
+	name: lojaJMPU
+	...]
+2020-04-21 23:43:36,357 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoServices' in deployment unit 'deployment "loja-1.0.0.war"' are as follows:
+
+	java:global/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:module/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	ejb:/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:global/loja-1.0.0/ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices
+	java:module/ProdutoServices
+
+2020-04-21 23:43:36,459 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2020-04-21 23:43:36,821 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:43:36,825 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 110) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-21 23:43:36,838 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 110) Envers integration enabled? : true
+2020-04-21 23:43:37,080 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2020-04-21 23:43:37,091 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-21 23:43:37,469 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 122) Inicializando Mojarra 2.3.9.SP06 para o contexto '/loja-jm'
+2020-04-21 23:43:38,001 ERROR [stderr] (ServerService Thread Pool -- 122) com.sun.faces.config.ConfigurationException: 
+2020-04-21 23:43:38,001 ERROR [stderr] (ServerService Thread Pool -- 122)   Source Document: vfs:/C:/Users/Poterucha/Documents/Matheus/CaseItau/wildfly-19.0.0.Final/bin/content/loja-1.0.0.war/WEB-INF/lib/primefaces-3.5.jar/META-INF/faces-config.xml
+2020-04-21 23:43:38,004 ERROR [stderr] (ServerService Thread Pool -- 122)   Cause: Class 'org.primefaces.component.fileupload.FileUploadRenderer' is missing a runtime dependency: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 23:43:38,006 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:255)
+2020-04-21 23:43:38,006 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:199)
+2020-04-21 23:43:38,007 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.addRenderers(RenderKitConfigProcessor.java:291)
+2020-04-21 23:43:38,008 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.process(RenderKitConfigProcessor.java:167)
+2020-04-21 23:43:38,009 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.ConfigManager.lambda$initialize$1(ConfigManager.java:324)
+2020-04-21 23:43:38,010 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+2020-04-21 23:43:38,010 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+2020-04-21 23:43:38,011 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+2020-04-21 23:43:38,012 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:307)
+2020-04-21 23:43:38,018 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:205)
+2020-04-21 23:43:38,018 ERROR [stderr] (ServerService Thread Pool -- 122) 	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+2020-04-21 23:43:38,019 ERROR [stderr] (ServerService Thread Pool -- 122) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:217)
+2020-04-21 23:43:38,020 ERROR [stderr] (ServerService Thread Pool -- 122) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+2020-04-21 23:43:38,020 ERROR [stderr] (ServerService Thread Pool -- 122) 	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+2020-04-21 23:43:38,021 ERROR [stderr] (ServerService Thread Pool -- 122) 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2020-04-21 23:43:38,022 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+2020-04-21 23:43:38,024 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:43:38,024 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:43:38,029 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:43:38,030 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:43:38,031 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:43:38,032 ERROR [stderr] (ServerService Thread Pool -- 122) 	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+2020-04-21 23:43:38,032 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+2020-04-21 23:43:38,034 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+2020-04-21 23:43:38,034 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020-04-21 23:43:38,035 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020-04-21 23:43:38,036 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+2020-04-21 23:43:38,036 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+2020-04-21 23:43:38,037 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+2020-04-21 23:43:38,038 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+2020-04-21 23:43:38,044 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 23:43:38,044 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+2020-04-21 23:43:38,045 ERROR [stderr] (ServerService Thread Pool -- 122) Caused by: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 23:43:38,046 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.lang.Class.getDeclaredMethods0(Native Method)
+2020-04-21 23:43:38,046 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+2020-04-21 23:43:38,047 ERROR [stderr] (ServerService Thread Pool -- 122) 	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+2020-04-21 23:43:38,048 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.util.Util.classHasAnnotations(Util.java:1306)
+2020-04-21 23:43:38,049 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:55)
+2020-04-21 23:43:38,049 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:27)
+2020-04-21 23:43:38,050 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.util.MetadataWrapperMap.put(MetadataWrapperMap.java:79)
+2020-04-21 23:43:38,051 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.processor.AbstractConfigProcessor.loadClass(AbstractConfigProcessor.java:301)
+2020-04-21 23:43:38,052 ERROR [stderr] (ServerService Thread Pool -- 122) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:208)
+2020-04-21 23:43:38,057 ERROR [stderr] (ServerService Thread Pool -- 122) 	... 31 more
+2020-04-21 23:43:38,058 ERROR [stderr] (ServerService Thread Pool -- 122) Caused by: java.lang.ClassNotFoundException: org.apache.commons.fileupload.FileItem from [Module "deployment.loja-1.0.0.war" from Service Module Loader]
+2020-04-21 23:43:38,059 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:255)
+2020-04-21 23:43:38,059 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+2020-04-21 23:43:38,060 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+2020-04-21 23:43:38,061 ERROR [stderr] (ServerService Thread Pool -- 122) 	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+2020-04-21 23:43:38,062 ERROR [stderr] (ServerService Thread Pool -- 122) 	... 40 more
+2020-04-21 23:43:38,604 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 122) Running on PrimeFaces 3.5
+2020-04-21 23:43:38,611 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 122) WFLYUT0021: Registered web context: '/loja-jm' for server 'default-server'
+2020-04-21 23:43:38,671 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0016: Replaced deployment "loja-1.0.0.war" with deployment "loja-1.0.0.war"
+2020-04-21 23:43:38,677 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\13\70e3a69c0cc7974ff140d8361d0a50e28a28ef\content
+2020-04-21 23:43:47,356 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2020-04-21 23:47:51,336 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\bf\71f4b6a22df31f544a7589f62a924e65e72657\content
+2020-04-21 23:47:51,378 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 123) WFLYUT0022: Unregistered web context: '/loja-jm' from server 'default-server'
+2020-04-21 23:47:51,428 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:47:51,431 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 127) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@62fc9720
+2020-04-21 23:47:51,437 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:47:52,055 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment loja-1.0.0.war (runtime-name: loja-1.0.0.war) in 700ms
+2020-04-21 23:47:52,061 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "loja-1.0.0.war" (runtime-name: "loja-1.0.0.war")
+2020-04-21 23:47:52,787 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for lojaJMPU
+2020-04-21 23:47:52,966 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment loja-1.0.0.war
+2020-04-21 23:47:52,988 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:47:52,989 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 127) HHH000204: Processing PersistenceUnitInfo [
+	name: lojaJMPU
+	...]
+2020-04-21 23:47:53,084 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoServices' in deployment unit 'deployment "loja-1.0.0.war"' are as follows:
+
+	java:global/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:module/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	ejb:/loja-1.0.0/ProdutoServices!br.com.amazoniarc.jee6.loja.services.ProdutoServices
+	java:global/loja-1.0.0/ProdutoServices
+	java:app/loja-1.0.0/ProdutoServices
+	java:module/ProdutoServices
+
+2020-04-21 23:47:53,190 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2020-04-21 23:47:53,581 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'loja-1.0.0.war#lojaJMPU'
+2020-04-21 23:47:53,584 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 127) HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-21 23:47:53,596 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 127) Envers integration enabled? : true
+2020-04-21 23:47:53,841 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2020-04-21 23:47:53,861 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-21 23:47:54,293 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 126) Inicializando Mojarra 2.3.9.SP06 para o contexto '/loja-jm'
+2020-04-21 23:47:54,963 ERROR [stderr] (ServerService Thread Pool -- 126) com.sun.faces.config.ConfigurationException: 
+2020-04-21 23:47:54,963 ERROR [stderr] (ServerService Thread Pool -- 126)   Source Document: vfs:/C:/Users/Poterucha/Documents/Matheus/CaseItau/wildfly-19.0.0.Final/bin/content/loja-1.0.0.war/WEB-INF/lib/primefaces-3.5.jar/META-INF/faces-config.xml
+2020-04-21 23:47:54,967 ERROR [stderr] (ServerService Thread Pool -- 126)   Cause: Class 'org.primefaces.component.fileupload.FileUploadRenderer' is missing a runtime dependency: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 23:47:54,971 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:255)
+2020-04-21 23:47:54,972 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:199)
+2020-04-21 23:47:54,974 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.addRenderers(RenderKitConfigProcessor.java:291)
+2020-04-21 23:47:54,983 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.processor.RenderKitConfigProcessor.process(RenderKitConfigProcessor.java:167)
+2020-04-21 23:47:54,984 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.ConfigManager.lambda$initialize$1(ConfigManager.java:324)
+2020-04-21 23:47:54,985 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+2020-04-21 23:47:54,986 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+2020-04-21 23:47:54,989 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+2020-04-21 23:47:54,994 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:307)
+2020-04-21 23:47:54,996 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:205)
+2020-04-21 23:47:54,999 ERROR [stderr] (ServerService Thread Pool -- 126) 	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+2020-04-21 23:47:55,000 ERROR [stderr] (ServerService Thread Pool -- 126) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:217)
+2020-04-21 23:47:55,000 ERROR [stderr] (ServerService Thread Pool -- 126) 	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+2020-04-21 23:47:55,002 ERROR [stderr] (ServerService Thread Pool -- 126) 	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+2020-04-21 23:47:55,006 ERROR [stderr] (ServerService Thread Pool -- 126) 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2020-04-21 23:47:55,010 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+2020-04-21 23:47:55,010 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:47:55,014 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:47:55,015 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:47:55,022 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:47:55,027 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+2020-04-21 23:47:55,029 ERROR [stderr] (ServerService Thread Pool -- 126) 	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:252)
+2020-04-21 23:47:55,030 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:96)
+2020-04-21 23:47:55,031 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:78)
+2020-04-21 23:47:55,032 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020-04-21 23:47:55,034 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020-04-21 23:47:55,034 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+2020-04-21 23:47:55,041 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+2020-04-21 23:47:55,044 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+2020-04-21 23:47:55,047 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+2020-04-21 23:47:55,049 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.lang.Thread.run(Thread.java:748)
+2020-04-21 23:47:55,054 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+2020-04-21 23:47:55,056 ERROR [stderr] (ServerService Thread Pool -- 126) Caused by: java.lang.NoClassDefFoundError: org/apache/commons/fileupload/FileItem
+2020-04-21 23:47:55,057 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.lang.Class.getDeclaredMethods0(Native Method)
+2020-04-21 23:47:55,059 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+2020-04-21 23:47:55,072 ERROR [stderr] (ServerService Thread Pool -- 126) 	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+2020-04-21 23:47:55,074 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.util.Util.classHasAnnotations(Util.java:1306)
+2020-04-21 23:47:55,075 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:55)
+2020-04-21 23:47:55,076 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.application.ApplicationInstanceFactoryMetadataMap.onPut(ApplicationInstanceFactoryMetadataMap.java:27)
+2020-04-21 23:47:55,077 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.util.MetadataWrapperMap.put(MetadataWrapperMap.java:79)
+2020-04-21 23:47:55,078 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.processor.AbstractConfigProcessor.loadClass(AbstractConfigProcessor.java:301)
+2020-04-21 23:47:55,080 ERROR [stderr] (ServerService Thread Pool -- 126) 	at com.sun.faces.config.processor.AbstractConfigProcessor.createInstance(AbstractConfigProcessor.java:208)
+2020-04-21 23:47:55,081 ERROR [stderr] (ServerService Thread Pool -- 126) 	... 31 more
+2020-04-21 23:47:55,082 ERROR [stderr] (ServerService Thread Pool -- 126) Caused by: java.lang.ClassNotFoundException: org.apache.commons.fileupload.FileItem from [Module "deployment.loja-1.0.0.war" from Service Module Loader]
+2020-04-21 23:47:55,088 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:255)
+2020-04-21 23:47:55,090 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+2020-04-21 23:47:55,091 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+2020-04-21 23:47:55,092 ERROR [stderr] (ServerService Thread Pool -- 126) 	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+2020-04-21 23:47:55,093 ERROR [stderr] (ServerService Thread Pool -- 126) 	... 40 more
+2020-04-21 23:47:55,776 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 126) Running on PrimeFaces 3.5
+2020-04-21 23:47:55,784 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 126) WFLYUT0021: Registered web context: '/loja-jm' for server 'default-server'
+2020-04-21 23:47:55,850 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0016: Replaced deployment "loja-1.0.0.war" with deployment "loja-1.0.0.war"
+2020-04-21 23:47:55,859 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location C:\Users\Poterucha\Documents\Matheus\CaseItau\wildfly-19.0.0.Final\standalone\data\content\f6\af1670c59d635266479e9a29129cbc7ec89b7d\content
+2020-04-21 23:48:45,388 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory

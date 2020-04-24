@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
+  xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui">
+<ui:composition template="/template/template.xhtml">
+  <ui:define name="body">
+    <h2>#{msg['carrinho-de-compras']}</h2>
+    <p></p>
+    <h:link outcome="index" styleClass="link" value="#{msg['continuar-comprando']}" />
+    <p></p>
+    <h:form id="formCarrinhoDeCompras">
+      <p:messages autoUpdate="true" />
+      <p:dataTable id="listaItens" value="#{carrinhoDeComprasMB.pedidoCarrinho.itensOrdenadosEmLista}"
+        var="item" styleClass="lista-conteudo" emptyMessage="#{msg['carrinho-vazio']}">
+        
+        <p:column style="width: 60%" headerText="#{msg['produto']}">
+          <h:outputText value="#{item.produto.titulo}" />
+        </p:column>
+        <p:column style="width: 15%" headerText="#{msg['quantidade']}">
+          <h:outputText value="#{item.quantidade}" />
+        </p:column>
+        <p:column style="width: 15%" headerText="#{msg['precoUnitario']}">
+          <h:outputText value="#{item.precoUnitario}" />
+        </p:column>
+          <p:column style="width: 60%" headerText="#{msg['tipo']}">
+            <h:outputText value="#{item.produto.tipo}" />
+          <f:facet name="footer">  
+            <h:outputLabel value="#{msg['valor-total']}"/>  
+          </f:facet> 
+        </p:column>
+        <p:column headerText="#{msg['valor-total']}" style="width: 15%; text-align: right;">
+          <h:outputText value="#{item.precoTotal}">
+            <f:convertNumber currencyCode="BRL" type="currency" />
+          </h:outputText>
+          <f:facet name="footer">
+            <h:outputText value="#{carrinhoDeComprasMB.pedidoCarrinho.valorTotal}">
+              <f:convertNumber currencyCode="BRL" type="currency" />
+            </h:outputText>
+            </f:facet>          
+        </p:column>
+        <p:column headerText="#{msg['remover']}">
+          <p:commandButton icon="ui-icon-close" oncomplete="dialogConfirmaRemocaoProduto.show()" process="@this">
+            <f:setPropertyActionListener value="#{item.produto}" target="#{carrinhoDeComprasMB.produtoRemover}" />
+          </p:commandButton>
+        </p:column>  
+      </p:dataTable>
+      <p></p>
+      <hr />
+      <p></p>
+      <h3>Possui algum cupom? Aplique aqui: </h3>
+      <input value="#{carrinhoDeComprasMB.cupom}"/>
+      <p></p>
+        <p:commandButton action="#{carrinhoDeComprasMB.aplicarCupom}" value="#{msg['cupom-aplicado']}"/>
+      <p></p>
+        <p:commandButton action="#{carrinhoDeComprasMB.fecharPedido}" value="#{msg['finalizar-compra']}" process="formCarrinhoDeCompras" update="formCarrinhoDeCompras"/>
+      <p></p>
+      <hr />
+
+      <p:confirmDialog id="dialogRemoverProduto" widgetVar="dialogConfirmaRemocaoProduto" message="#{msg['confirmar-remocao-item']}">
+        <p:commandButton value="#{msg['sim']}" action="#{carrinhoDeComprasMB.removerItem}"
+          process="@this" update="@form" oncomplete="dialogConfirmaRemocaoProduto.hide()"/>
+        <p:commandButton value="#{msg['nao']}" immediate="true" process="@this" onclick="dialogConfirmaRemocaoProduto.hide()" />      
+      </p:confirmDialog>
+            
+    </h:form>    
+  </ui:define>
+</ui:composition>
+</html>
