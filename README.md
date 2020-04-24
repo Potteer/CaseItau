@@ -2,17 +2,14 @@
 > Projeto onde é apresentado a construção de uma aplicação simples de carrinho de compras.
 
 ## Tecnologias e ferramentas utilizadas
-utilizando Java EE (CDI, JPA, JSF 2 e EJB 3), PrimeFaces, WildFly e Maven
 
-* Java EE
-  **CDI
-  **JPA
-  **JSF 2
-  **EJB 3
-* PrimeFaces
-* WildFly
-* Maven
-* MySQL
+<ul>
+<li>Java EE (CDI, JPA, JSF 2, EJB 3)</li>
+<li>PrimeFaces</li>
+<li>WildFly</li>
+<li>Maven</li>
+<li>MySQL</li>
+</ul>
 
 ## Contato
 
